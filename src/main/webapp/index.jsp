@@ -14,7 +14,7 @@
     <%--<button type="submit" name="submit">Open Cookies</button>--%>
     <%--</form>--%>
 
-    <form action="/myApp1/Controller"  method="post">
+    <form action="myApp1/Controller"  method="post">
         <input type="submit" name="Click">
     </form>
 </div>
