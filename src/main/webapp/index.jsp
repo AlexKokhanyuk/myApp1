@@ -14,7 +14,7 @@
     <%--<button type="submit" name="submit">Open Cookies</button>--%>
     <%--</form>--%>
 
-    <form action="${pageContext.request.contextPath}/Controller"  method="post">
+    <form action="/Controller"  method="post">
         <input type="submit" name="Click">
     </form>
 </div>
