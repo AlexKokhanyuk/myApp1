@@ -9,7 +9,8 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>controller</servlet-name>
-        <url-pattern>${pageContext.request.contextPath}controller</url-pattern>
+        <url-pattern>${pageContext.request.contextPath}/controller</url-pattern>
+
     </servlet-mapping>
 
 </web-app>
