@@ -16,9 +16,9 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>2.1.1</version>
                 <configuration>
-                    <warName>myApp</warName>
+                    <warName>myApp1</warName>
                     <!--<warSourceDirectory>/var/lib/tomcat8/webapps</warSourceDirectory>-->
-                    <webappDirectory>/var/lib/tomcat8/webapps/myApp</webappDirectory>
+                    <webappDirectory>/var/lib/tomcat8/webapps/myApp1</webappDirectory>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                </configuration>
             </plugin>

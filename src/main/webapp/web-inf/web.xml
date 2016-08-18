@@ -12,27 +12,5 @@
         <servlet-name>Controller</servlet-name>
         <url-pattern>/Controller</url-pattern>
     </servlet-mapping>
-    <!--<context-param>-->
-        <!--<param-name>db.url</param-name>-->
-        <!--<param-value>jdbc:h2:~/test</param-value>-->
-    <!--</context-param>-->
-    <!--<context-param>-->
-        <!--<param-name>db.user</param-name>-->
-        <!--<param-value>sa</param-value>-->
-    <!--</context-param>-->
-    <!--<context-param>-->
-        <!--<param-name>db.password</param-name>-->
-        <!--<param-value>sa</param-value>-->
-    <!--</context-param>-->
-    <!--<context-param>-->
-        <!--<param-name>db.tcpServer</param-name>-->
-        <!--<param-value>-tcpAllowOthers</param-value>-->
-    <!--</context-param>-->
-
-    <!--<listener>-->
-        <!--<listener-class>org.h2.server.web.DbStarter</listener-class>-->
-    <!--</listener>-->
-
-
 
 </web-app>

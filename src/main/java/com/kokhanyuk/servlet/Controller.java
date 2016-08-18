@@ -25,10 +25,8 @@ public class Controller extends HttpServlet {
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        StringBuilder users = new StringBuilder("  Users");
+        //StringBuilder users = new StringBuilder("  Users");
       //  Statement stmt = null;
-
-
       //  Connection conn = (Connection) getServletContext().getAttribute("connection");
 //        try {
 //
@@ -45,9 +43,11 @@ public class Controller extends HttpServlet {
 //            e.printStackTrace();
 //        }
 
-        PrintWriter out = response.getWriter();
-        String s = "Hello" + users.toString();
-        out.println("<h1> " + s + " </h1>");
+//        PrintWriter out = response.getWriter();
+//       // String s = "Hello" + users.toString();
+//        String s = "Hello";
+//
+//        out.println("<h1> " + s + " </h1>");
         processRequest(request, response);
     }
 
